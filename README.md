@@ -1,8 +1,10 @@
 Overview
+--------
 
 This project includes two Excel files: Bills.xlsx and Debt Tracker.xlsx, designed to help track monthly bills, expenses, and debt repayments. The files are interlinked, allowing for automated calculations based on predefined structures and formulas.
 
 Bills.xlsx
+----------
 
 Customisation
 
@@ -19,6 +21,7 @@ Column D contains dropdown lists for selecting payment statuses.
 Cell F5 also includes a dropdown list. To edit this list, modify the predefined options in the Data tab.
 
 Debt Tracker.xlsx
+-----------------
 
 Dependency on Bills.xlsx
 
@@ -40,7 +43,11 @@ Summary
 
 Users should carefully adjust names and settings to fit their personal financial tracking needs. Ensuring correct agency name matching between Bills.xlsx and Debt Tracker.xlsx is essential for proper data retrieval and calculations. The graphical elements and summaries should also be personalised to reflect individual financial situations.
 
-Important Information for Using the Bills and Debt Tracker Files
+Important
+---------
+
+Information for Using the Bills and Debt Tracker Files
+
 If you are using both the Bills and Debt Tracker files and they are located in different folders or on a different computer, Excel may not automatically update the file paths to reflect the new location. This means that when you open the Debt Tracker file, Excel may prompt you with a message stating that it cannot find the external source (the Bills file).
 
 To resolve this, you will need to manually update the file path in the formulas to point to the correct location of the Bills file on your computer. Here are the steps you should follow:
